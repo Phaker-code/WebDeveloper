@@ -1,0 +1,126 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    
+}
+.logo{
+    width: 80%;
+    height: 100%;
+    /*background-color: aqua;*/
+    margin: auto;
+}
+.logo img{
+    height: 80%;
+    margin-top: 10px;
+}
+.menu-full{
+    width: 100%;
+    background-color: red;
+}
+.menu{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    font-family: "Koulen", sans-serif;
+    opacity: 0.8;
+    transition: 0s;
+}
+.menu ul li a:hover{
+    opacity: 1;
+    transform: scale(110%);
+}
+.content{
+    width: 100%;
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+.full{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.box1-info{
+    width: 70%;
+    height: 600px;
+    /* background-color: aquamarine; */
+    float: left;
+    
+}
+.box2-info2{
+    width: 28%;
+    height: 600px;
+    /* background-color: rgb(25, 80, 182); */
+    float: left;
+    margin-left: 10px;
+    
+}
+.box1{
+    width: 60%;
+    height: 300px;
+    /* background-color: blueviolet; */
+    float: left;
+    background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Rith.file/file27/67f34fe2bd52a_1743998940_medium.jpg");
+     
+}
+.box3{
+    width: 60%;
+    height: 300px;
+    /* background-color: blueviolet; */
+    float: left;
+    background-image: url(photo/p4.jpg);
+    background-size: cover;
+     
+}
+.text{
+    margin-top: 200px;
+    font-family: "Battambang", system-ui;
+    font-weight: 900;
+    font-size: 25px;
+    /* color: red; */
+}
+
+.box2{
+    width: 40%;
+    height: 300px;
+    background-image: url(photo/p2.jpg);
+    background-size: cover;
+    float: left;
+}
+.box4{
+    width: 40%;
+    height: 300px;
+    background-image: url(photo/p2.png);
+    background-size: cover;
+    float: left;
+}
+.b1{
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+
+}
+.b1:last-child{
+    margin-top: 10px;
+}
